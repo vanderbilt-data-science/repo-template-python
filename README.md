@@ -1,5 +1,5 @@
-# repo-template-python-exp
-This is an alternate template repository for data science projects done in Python where the dataset is small and the processing can be subdivided into shorter, separate notebooks.
+# repo-template-python
+This is a template repository for data science projects done in Python.
 
 ### Prerequisites
 To most easily run this code out of the box, the following packages must be installed:
