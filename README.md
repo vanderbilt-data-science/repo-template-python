@@ -21,6 +21,10 @@ This is easiest to achieve through first installing an Anaconda distribution, wh
 [Timeline](#timeline)  
 [Logistics](#project-logistics)  
 
+# Goal
+
+Provide an overview of the goals and deliverables of the project. Mention any relevant details or issues. 
+
 # Background  
 
 Provide a broad overview of the purpose of the project.
@@ -45,6 +49,14 @@ Clearly identify each of the response variables of interest.  Any additional des
 
 Outline the desired timeline of the project and any explicit deadlines.
 
+# Repo Structure 
+
+Give a description of how the repository is structured. Example structure description below:
+
+The repo is structured as follows: All *0- (e.g., 10-, 20-, 30-) files contain finalized work for the purpose described (e.g., "process-data"). Subfiles related to the task (e.g., 11-, 12-) should be created in order to explore and document relevant or interesting subtasks.
+
+All files which appear in the repo should be able to run, and not contain error or blank cell lines, even if they are relatively midway in development of the proposed task. All notebooks relating to the analysis should have a numerical prefix (e.g., 31-) followed by the exploration (e.g. 31-text-labeling). Any utility notebooks should not be numbered, but be named according to their purpose. All notebooks should have lowercase and hyphenated titles (e.g., 10-process-data not 10-Process-Data). All notebooks should adhere to literate programming practices (i.e., markdown writing to describe problems, assumptions, conclusions) and provide adequate although not superfluous code comments.
+
 # Project logistics
 
 **Sprint planning**:  
@@ -55,10 +67,10 @@ Outline the desired timeline of the project and any explicit deadlines.
 **Slack channel**:  
 **Zoom link**:  
 
-The following contact information should be completed for the desired participants:
+# Resources 
 
-Name  
-Physical Location  
-Email address  
-Phone number  
+Provide links to any resources that may be useful in running the repo (python/git/accre tutorials etc).
 
+# Contact Info
+
+Add contact information for any project stakeholders. Include name, email and title. 
