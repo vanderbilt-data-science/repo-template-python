@@ -1,3 +1,8 @@
+# DSI Project
+*.DS_Store
+client_oauth.py
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
