@@ -1,6 +1,9 @@
 # repo-template-python
 This is a template repository for data science projects done in Python.
 
+### Using this template
+To use the following template, click the "Use This Template button" and follow the instructions to create a new repository.  Fill out the information below, deleting parts that are not specific to your project (e.g., Prerequisites).  This template contains a number of code templates in the modeling sections (40-90 series), which may be deleted and renumbered according to the project objectives.  The format of this repository goes well with nbdev.  Take a look at the documentation there and review the tutorials to get the best usage out of this repository.  See the `box-authentication` notebook if you need to do authentication via Box (for projects with security contracts or PII data).  Note that this authentication method is not currently guaranteed to work on ACCRE.
+
 ### Prerequisites
 To most easily run this code out of the box, the following packages must be installed:
 * pandas
@@ -11,6 +14,8 @@ To most easily run this code out of the box, the following packages must be inst
 * great expectations
 * h2o
 * fastai
+* huggingface
+* datasets
 
 This is easiest to achieve through first installing an Anaconda distribution, which installs the first 5 packages and all of their dependencies.  The install directions to the other packages may be found on their documentation pages.
 
@@ -19,7 +24,10 @@ This is easiest to achieve through first installing an Anaconda distribution, wh
 [Data](#data)  
 [Models](#models)  
 [Timeline](#timeline)  
+[Repo Structure](#repo-structure)  
 [Logistics](#project-logistics)  
+[Resources](#resources)  
+[Contact](#contact)
 
 # Goal
 
@@ -53,7 +61,7 @@ Outline the desired timeline of the project and any explicit deadlines.
 
 Give a description of how the repository is structured. Example structure description below:
 
-The repo is structured as follows: All *0- (e.g., 10-, 20-, 30-) files contain finalized work for the purpose described (e.g., "process-data"). Subfiles related to the task (e.g., 11-, 12-) should be created in order to explore and document relevant or interesting subtasks.
+The repo is structured as follows: Notebooks are grouped according to their series (e.g., 10, 20, 30, etc) which reflects the general task to be performed in those notebooks.  Start with the *0 notebook in the series and add other investigations relevant to the task in the series (e.g., `11-cleaned-scraped.ipynb`).  If your notebook is extremely long, make sure you've utilized nbdev reuse capabilities and consider whether you can divide the notebook into two notebooks.
 
 All files which appear in the repo should be able to run, and not contain error or blank cell lines, even if they are relatively midway in development of the proposed task. All notebooks relating to the analysis should have a numerical prefix (e.g., 31-) followed by the exploration (e.g. 31-text-labeling). Any utility notebooks should not be numbered, but be named according to their purpose. All notebooks should have lowercase and hyphenated titles (e.g., 10-process-data not 10-Process-Data). All notebooks should adhere to literate programming practices (i.e., markdown writing to describe problems, assumptions, conclusions) and provide adequate although not superfluous code comments.
 
@@ -68,8 +76,10 @@ All files which appear in the repo should be able to run, and not contain error 
 **Zoom link**:  
 
 # Resources 
-
-Provide links to any resources that may be useful in running the repo (python/git/accre tutorials etc).
+* **Python usage**: Whirlwind Tour of Python, Jake VanderPlas ([Book](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/), [Notebooks](https://github.com/jakevdp/WhirlwindTourOfPython))
+* **Data science packages in Python**: [Python Data Science Handbook, Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/) 
+* **Git tutorials**: [Simple Guide](https://rogerdudler.github.io/git-guide/), [Learn Git Branching](https://learngitbranching.js.org/?locale=en_US)
+* **ACCRE how-to guides**: [DSI How-tos](https://github.com/vanderbilt-data-science/how-tos)  
 
 # Contact Info
 
