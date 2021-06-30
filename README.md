@@ -27,7 +27,7 @@ This is easiest to achieve through first installing an Anaconda distribution, wh
 [Repo Structure](#repo-structure)  
 [Logistics](#project-logistics)  
 [Resources](#resources)  
-[Contact](#contact)
+[Contact](#contact-info)
 
 # Goal
 
@@ -78,6 +78,10 @@ All files which appear in the repo should be able to run, and not contain error 
 # Resources 
 * **Python usage**: Whirlwind Tour of Python, Jake VanderPlas ([Book](https://learning.oreilly.com/library/view/a-whirlwind-tour/9781492037859/), [Notebooks](https://github.com/jakevdp/WhirlwindTourOfPython))
 * **Data science packages in Python**: [Python Data Science Handbook, Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/) 
+* **HuggingFace**: [Website](https://huggingface.co/transformers/index.html), [Course/Training](https://huggingface.co/course/chapter1), [Inference using pipelines](https://huggingface.co/transformers/task_summary.html), [Fine tuning models](https://huggingface.co/transformers/training.html)
+* **fast.ai**: [Course](https://course.fast.ai/), [Quick start](https://docs.fast.ai/quick_start.html)
+* **h2o**: [Resources, documentation, and API links](https://docs.h2o.ai/#h2o)
+* **nbdev**: [Overview](https://nbdev.fast.ai/), [Tutorial](https://nbdev.fast.ai/tutorial.html)
 * **Git tutorials**: [Simple Guide](https://rogerdudler.github.io/git-guide/), [Learn Git Branching](https://learngitbranching.js.org/?locale=en_US)
 * **ACCRE how-to guides**: [DSI How-tos](https://github.com/vanderbilt-data-science/how-tos)  
 
